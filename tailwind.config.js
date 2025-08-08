@@ -2,10 +2,10 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}", // Importante para encontrar clases de Tailwind en tus componentes
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
