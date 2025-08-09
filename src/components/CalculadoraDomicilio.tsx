@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Phone, Clock, Package, Calendar, Navigation, MapPin, Calculator, ExternalLink } from "lucide-react";
+import VisitorCounter from "./VisitCounter";
 
 // 💸 Tarifas actualizadas
 const tarifaBaseMedellin = 60000;
@@ -112,6 +113,7 @@ ${enlaceRuta ? `\n🗺️ *Ruta en Google Maps:*\n${enlaceRuta}` : ''}
           </div>
           <p className="text-gray-600 text-lg">Planifica tu ruta y calcula el precio de tu envío</p>
         </div>
+        <VisitorCounter />
 
         <div className="bg-white rounded-2xl shadow-xl p-8 space-y-8">
           
