@@ -46,7 +46,14 @@ const ActualizarVisitas = () => {
 
       // 3️⃣ Guardar en estado para mostrar en pantalla
       setVisitas(nuevaCantidad);
-      console.log(`Visita con id 1 actualizada a ${nuevaCantidad}`);
+      // console.log(`Visita con id 1 actualizada a ${nuevaCantidad}`);
+      console.log("Gracias por visitar mi web!");
+      console.log("Gracias por encontrar este log secreto :)");
+      console.log("Si encuentras este mensaje, eres una persona curiosa y genial! escribeme a la whatsapp https://wa.me/573007756101");
+      console.log("¡Que tengas un día maravilloso!");
+      console.log("🚀✨🌟");
+      console.log("Personas que encontraron este mensaje: 1");
+      console.log("1. Sebastian Hincapie");
     } catch (error) {
       console.error("Error actualizando visitas:", error);
     } finally {
