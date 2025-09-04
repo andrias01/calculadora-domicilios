@@ -54,6 +54,7 @@ const ActualizarVisitas = () => {
       console.log("🚀✨🌟");
       console.log("Personas que encontraron este mensaje: 1");
       console.log("1. Sebastian Hincapie");
+      console.log("2. Juan Avendaño");
     } catch (error) {
       console.error("Error actualizando visitas:", error);
     } finally {
